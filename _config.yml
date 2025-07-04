@@ -1,0 +1,23 @@
+title: "Annica Gehlen"
+description: "Researcher Website"
+baseurl: "" 
+url: "https://youramagehusername.github.io"
+
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author:
+  name: "Annica Gehlen"
+  bio: "Economist | PhD Candidate"
+  location: "Berlin, Germany"
+
+social:
+  github: https://github.com/amageh
+  linkedin: https://www.linkedin.com/in/annica-gehlen-13b24a137
+  email: agehlen@diw.de
+  bluesky: https://amageh.bsky.social
