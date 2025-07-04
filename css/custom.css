@@ -1,0 +1,17 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+a {
+  color: #0077cc;
+}
+
+header.masthead {
+  background: linear-gradient(90deg, #00c9ff, #92fe9d);
+}
+
+.site-heading, .post-heading {
+  color: #fff;
+}

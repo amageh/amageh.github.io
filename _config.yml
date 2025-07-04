@@ -3,10 +3,13 @@ description: "Researcher Website"
 baseurl: "" 
 url: "https://youramagehusername.github.io"
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
 plugins:
-  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -20,3 +23,12 @@ social:
   linkedin: https://www.linkedin.com/in/annica-gehlen-13b24a137
   email: agehlen@diw.de
   bluesky: https://amageh.bsky.social
+
+# Navigation links
+navigation:
+  - text: "Home"
+    url: "/"
+  - text: "Research"
+    url: "/research/"
+  - text: "CV"
+    url: "/cv/"
