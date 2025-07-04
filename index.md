@@ -1,6 +1,6 @@
 ---
-layout: home
-author_profile: true
+layout: home  
+title: "Home"
 ---
 
 <img src="/assets/photo.jpg" alt="Annica Gehlen" style="width:180px;border-radius:50%;margin:auto;display:block;margin-bottom:1rem;"/>
