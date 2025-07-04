@@ -3,7 +3,7 @@ description: "Researcher Website"
 baseurl: "" 
 url: "https://youramagehusername.github.io"
 
-remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
+remote_theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-feed
