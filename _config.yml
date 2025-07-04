@@ -4,7 +4,6 @@ baseurl: ""
 url: "https://youramagehusername.github.io"
 
 theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
