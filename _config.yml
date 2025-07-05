@@ -25,7 +25,7 @@ social:
   bluesky: https://amageh.bsky.social
 
 # Navigation links
-navigation:
+navbar_links:
   - text: "Home"
     url: "/"
   - text: "Research"
