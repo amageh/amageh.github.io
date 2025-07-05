@@ -1,34 +1,16 @@
 title: "Annica Gehlen"
-description: "Researcher Website"
-baseurl: "" 
-url: "https://youramagehusername.github.io"
+description: "Economist | PhD Candidate"
+url: "https://amageh.github.io"  # Update with your GitHub Pages URL
+baseurl: ""  # Leave empty if deploying to root
 
-remote_theme: jekyll-theme-cayman
+# Al-Folio theme
+remote_theme: alshedivat/al-folio
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
+# Author info
 author:
   name: "Annica Gehlen"
   bio: "Economist | PhD Candidate"
   location: "Berlin, Germany"
-
-social:
-  github: https://github.com/amageh
-  linkedin: https://www.linkedin.com/in/annica-gehlen-13b24a137
-  email: agehlen@diw.de
-  bluesky: https://amageh.bsky.social
-
-# Navigation links
-navbar_links:
-  - text: "Home"
-    url: "/"
-  - text: "Research"
-    url: "/research/"
-  - text: "CV"
-    url: "/cv/"
+  email: "agehlen@diw.de"
+  github: "amageh"
+  linke

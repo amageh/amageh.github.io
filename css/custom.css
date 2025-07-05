@@ -6,7 +6,6 @@ body {
   margin: auto;
   line-height: 1.6;
   padding: 2rem;
-  text-align: center;
 }
 
 h1, h2, h3 {
@@ -24,17 +23,43 @@ a:hover {
   text-decoration: underline;
 }
 
-img {
+/* Navbar */
+.navbar {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #004c99;
+  font-weight: bold;
+}
+
+/* Profile */
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.profile-container img {
   max-width: 150px;
   border-radius: 50%;
 }
 
-nav {
-  margin-bottom: 2rem;
+.social-links {
+  margin-top: 1rem;
+  font-size: 1.4rem;
 }
 
-/* Make nav background lighter */
-nav.navbar {
-  background-color: #f9f9f9;
+.social-links a {
+  margin: 0 0.5rem;
+  color: #004c99;
 }
-
