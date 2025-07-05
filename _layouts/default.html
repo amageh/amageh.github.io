@@ -5,17 +5,19 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-  <nav class="navbar">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/research/' | relative_url }}">Research</a>
-    <a href="{{ '/cv/' | relative_url }}">CV</a>
-  </nav>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+    </div>
+  </header>
 
-  <main>
+  <main class="main-content">
     {{ content }}
   </main>
 </body>
