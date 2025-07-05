@@ -1,4 +1,5 @@
 ---
-layout: cv  
+layout: default  
 title: "CV"
+permalink: /cv/
 ---
