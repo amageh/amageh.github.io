@@ -1,16 +1,21 @@
 title: "Annica Gehlen"
 description: "Economist | PhD Candidate"
-url: "https://amageh.github.io"  # Update with your GitHub Pages URL
-baseurl: ""  # Leave empty if deploying to root
+baseurl: "" 
+url: "https://amageh.github.io"
 
-# Al-Folio theme
-remote_theme: alshedivat/al-folio
+theme: null  # disables remote_theme so we can use our own layout
 
-# Author info
 author:
   name: "Annica Gehlen"
   bio: "Economist | PhD Candidate"
   location: "Berlin, Germany"
+
+social:
+  github: "https://github.com/amageh"
+  linkedin: "https://www.linkedin.com/in/annica-gehlen-13b24a137"
   email: "agehlen@diw.de"
-  github: "amageh"
-  linke
+  bluesky: "https://amageh.bsky.social"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
